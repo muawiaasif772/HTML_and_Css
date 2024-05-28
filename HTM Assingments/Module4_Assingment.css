@@ -1,0 +1,7 @@
+.external-box {
+    width: 200px;
+    height: 200px;
+    background-color: lightcoral;
+    border: 2px solid red;
+    margin: 10px;
+}

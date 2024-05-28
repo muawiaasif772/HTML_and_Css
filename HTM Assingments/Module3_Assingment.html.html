@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>forms</title>
+  </head>
+  <body>
+    <form action="">
+      <fieldset>
+        <legend>Enter your personal details</legend>
+        <label for="name">Name: &nbsp;</label>
+        <br />
+        <input type="text" id="name" placeholder="enter your name" /> <br />
+
+        <label for="password">password</label> <br />
+        <input
+          type="password"
+          id="password"
+          placeholder="enter passwrd"
+          maxlength="6"
+        /><br />
+        <br />
+        <label for=""> Gender</label><br />
+        &nbsp &nbsp &nbsp<label for="male">Male</label
+        ><input type="radio" name="gender" id="male" /><label for="female"
+          >female</label
+        >
+        <input type="radio" name="gender" id="female" />
+        <br />
+        <br />
+
+        <label for="">choice file</label><input type="file" accept="" />
+        <br /><br />
+
+        <label for="">Select hobies</label><br /><br />
+
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <label for="cricket">cricket</label
+        ><input type="checkbox" name="cricket" id="cricket" />
+        <label for="ball">vallyball</label
+        ><input type="checkbox" name="ball" id="ball" />
+        <label for="soft">soft ball</label
+        ><input type="checkbox" name="soft" id="soft" /><br />
+        <br />
+        <br /><label for="">message</label>
+        <textarea name="message" id="message" cols="30" rows="10">
+message</textarea
+        >
+        <br />
+        <br />
+        <label for="">Country</label> <br />
+
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <select>
+        
+          <option value="">india</option>
+          <option value="">pak</option>
+          <option value="">china</option>
+          <option value="">turky</option>
+        </select>
+        <br /><br />
+
+        <label for="">Select froutes</label><br />
+
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <select >
+          <optgroup label="sumemer">
+            <option value="">mango</option>
+            <option value="">date</option>
+            <option value="">grapes</option>
+          </optgroup>
+          <optgroup label="winter">
+            <option value="">orange</option>
+            <option value="">apricot</option>
+            <option value="">plum</option>
+          </optgroup></select
+        ><br /><br /><br />
+
+        <label for="">Select Cars</label>
+        <br />
+        <input list="car" />
+        <datalist id="car">
+          <option value="Civc"></option>
+          <option value="Honda"></option>
+          <option value="Caultus"></option>
+          <option value="aulto"></option></datalist
+
+        ><br />
+        <label for="">Select lor</label><input type="color" /><br />
+        <label for="">Select number</label
+        ><input type="number" maxlength="10" /><br />
+        <label for="">Select Range</label
+        ><input type="range" maxlength="10" /><br />
+        <label for="">Select number</label><input type="week" /><br />
+        <label for="">Select date</label><input type="date" /><br />
+        <label for="">Select date-time</label
+        ><input type="datetime-local" /><br />
+        <label for="">Select month</label><input type="month" /><br />
+        <label for="">Select time</label><input type="time" /><br />
+        <label for="">Select email</label><input type="email" /><br />
+        <label for="">search</label><input type="search" /><br />
+        <label for="">put url</label><input type="url" /><br />
+        <label for="">Select number</label><input type="tel" /><br />
+        <input type="submit" value="save" />
+        <input type="button" value="click" />
+        <input type="reset" />
+      </fieldset>
+    </form>
+  </body>
+</html>
